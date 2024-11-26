@@ -17,7 +17,29 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  /* font-family: Arial, Helvetica, sans-serif; */
+}
+
+::-webkit-scrollbar {
+  width: 6px; /* Width of the scrollbar */
+  /* height: 5px; */
+
+}
+
+::-webkit-scrollbar-thumb {
+  background: #BDBDBD !important; /* Color of the scrollbar thumb */
+  border-radius: 8px !important; /* Rounded corners for the thumb */
+
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #a57272 !important; /* Color of the thumb on hover */
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1 !important; /* Color of the scrollbar track */
+  border-radius: 8px !important; /* Rounded corners for the track */
+
 }
 
 @layer utilities {
