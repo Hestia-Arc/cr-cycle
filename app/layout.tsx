@@ -27,13 +27,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${quicksand.className} antialiased m-1 rounded`}
-        // className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        <MainNavigation />
-
-        <main className=" min-h-[565px] bg-stone-400 rounded-bl-md rounded-br-md">{children}</main>
+      <body className={`${quicksand.className} h-full bg-[#f2f2f2] antialiased rounded`}>
+        {children}
       </body>
     </html>
   );

@@ -109,7 +109,7 @@ export default SideBar;
 const links = [
   {
     name: "Overview",
-    path: "/dashboard/overview",
+    path: "/dashboard",
   },
   {
     name: "properties",
